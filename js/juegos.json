@@ -1,0 +1,10 @@
+[
+    { "id": 1, "nombre": "PES2022", "plataforma": "PS5" , "precio" : 60, "img" :"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGxYXYSOW6iwTeo17vDBO56SnJMZzndtJ5Xg&usqp=CAU" },
+    { "id": 2, "nombre": "CALL OF DUTY", "plataforma": "PC" , "precio" : 60, "img" :"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDk2pFlpiZb0ZIBlrMR4Cq6wbuuDsykUdiCg&usqp=CAU" },
+    { "id": 3, "nombre": "FIFA2022", "plataforma": "XBOX" , "precio" : 60, "img" :"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTpMLvgEH-5UXS879CqlRg0LNBo6Nbt9EBjA&usqp=CAU" },
+    { "id": 4, "nombre": "UFC4", "plataforma": "PC" , "precio" : 60, "img" :"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY6EfLJKF0UbAiEIIv4Y8iZDXawYQf7lnr_w&usqp=CAU" },
+    { "id": 5, "nombre": "GOW4", "plataforma": "PS5" , "precio" : 60, "img" :"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP5t7VX02TezGm3qSd30yoIY_GbqmPbZ2TGA&usqp=CAU" },
+    { "id": 6, "nombre": "HALO", "plataforma": "XBOX" , "precio" : 60, "img" :"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYaBUyir66dhkSFuqSgwabMD2CHB7gXoqqKA&usqp=CAU" },
+    { "id": 7, "nombre": "SPIDERMAN", "plataforma": "PS5" , "precio" : 60, "img" :"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr1Vd3L7PsVobVxNbYbRm80iojqL6h4hCjDQ&usqp=CAU" }
+
+]

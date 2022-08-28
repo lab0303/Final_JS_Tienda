@@ -1,0 +1,213 @@
+<!DOCTYPE HTML>
+
+<html lang="en-US">
+
+<head>
+
+	<meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Game E-Shop</title>
+
+	<!-- Latest compiled and minified CSS -->
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+	<!-- Google Font -->
+
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Raleway:400,300,500,700,600' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" type="text/css">
+
+    <!-- Theme Stylesheet -->
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+
+
+    <div class="header">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-3 col-sm-4 ">
+
+                    <div class="logo">
+
+                        <a href="index.html">
+
+                            <img src="imagenes/egame.png" alt="Orani E-shop">
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-7 col-sm-5">
+
+                    <div class="search-form">
+
+                        
+
+                              <input type="text" class="form-control" id="input" placeholder="Busca tu juego...">
+
+                            
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-2 col-sm-3">
+
+                    <div class="cart">
+
+                        <div class="cart-icon">
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="fa fa-shopping-cart"></i></button>
+                            <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <table class="table" style="color: black">
+                                        <thead>
+                                          <tr>
+                                            
+                                            <th scope="col">Juego</th>
+                                            <th scope="col">Plataforma</th>
+                                            <th scope="col">Precio</th>
+                                            <th scope="col"></th>
+                                          </tr>
+                                        </thead>
+                                        <tbody id="agregado">
+                                          
+                                        </tbody>
+                                      
+                                      </table>
+                                </div>
+                            </div>
+                            </div>
+
+                            
+
+                        </div>
+
+                        <div class="cart-text">
+
+                            SHOPPING CART
+
+                            <br>
+
+                            <span id ="numCarrito">0</span> items - $<span id="totalCarrito">0.00</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="navigation">
+
+        <nav class="navbar navbar-theme">
+
+          <div class="container">
+
+          
+
+            <div class="shop-category nav navbar-nav navbar-left">
+
+                <!-- Single button -->
+
+                <div class="btn-group">
+
+                  <button type="button" class="btn btn-shop-category dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+                    Busca por Plataforma <span class="caret"></span>
+
+                  </button>
+
+                  <ul class="dropdown-menu">
+                    <li><button class="all btn btn-shop-category">TODOS</button></li>
+
+                    <li><button class="ps5 btn btn-shop-category">PS5</button></li>
+
+                    <li><button class="pc btn btn-shop-category">PC</button></li>
+
+                    <li><button class="xbox btn btn-shop-category">XBOX</button></li>
+
+
+                  </ul>
+
+                </div>
+
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+
+
+          </div><!-- /.container-fluid -->
+
+        </nav>
+
+    </div>
+
+    <div class="featured-items">
+
+        <div class="container">
+
+          
+
+                <div class="tab-content">                    
+                </div>
+
+           
+
+        </div>
+
+    </div>
+    <div class="copyright text-center">
+
+        <div class="container">
+
+            <div class="row">
+
+                <p class="copyright"> Shared by <i class="fa fa-love"></i><a href="https://bootstrapthemes.co">BootstrapThemes</a>
+</p>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- Sweet Alert Library -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+
+	<!-- jQuery Library -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+	<!-- Script -->
+
+	<script src="js/script.js"></script>
+
+</body>
+
+</html>
